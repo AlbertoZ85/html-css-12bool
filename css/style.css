@@ -1,12 +1,23 @@
+body {
+    background-color: #f6f6f6;
+}
+
 .row {
     /* DA CANCELLARE */
-    height: 100px;
+    /* height: 100px; */
 }
 
 [class^=col-] {
     /* DA CANCELLARE */
-    background-color: darkgoldenrod;
+    background-color: white;
     border: 1px solid black;
-    line-height: 100px;
+    border-top: 3px solid black;
+    padding: 15px;
+    margin: 5px 0;
     text-align: center;
+    /* line-height: 100px; */
+}
+
+img {
+    max-width: 100%;
 }
