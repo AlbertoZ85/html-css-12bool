@@ -1,3 +1,11 @@
 .row {
     height: 100px;
 }
+
+[class^=col-] {
+    /* DA CANCELLARE */
+    background-color: gold;
+    border: 1px solid black;
+    line-height: 100px;
+    text-align: center;
+}
